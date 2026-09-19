@@ -53,7 +53,7 @@ El alcance y las funcionalidades podrán ajustarse durante el desarrollo en func
 
 ## MVP
 
-La primera versión del sistema contemplará:
+La primera versión del sistema contemplara:
 
 - Alta y gestión de productos.
 - Gestión de sucursales.
