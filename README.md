@@ -84,10 +84,17 @@ Estándar de la industria para trabajo colaborativo en equipo, cumpliendo ademá
 
 [https://github.com/Ginoc07/Trabajo_Final_Grupo214](https://github.com/Ginoc07/Trabajo_Final_Grupo214)
 
-## Instalación
+## Despliegue 
 
-Se completará durante el desarrollo del proyecto.
+Para el despliegue elegimos:
 
-## Despliegue
+Vercel: alojamiento de la aplicación web.
 
-Se definirá durante el desarrollo del proyecto.
+Spring Boot: backend y API REST.
+
+MongoDB Atlas: base de datos alojada en la nube.
+
+## API
+
+Para la API, una de envío de emails (Brevo). La utilizaremos para enviar automáticamente alertas al responsable cuando un producto alcance o quede por debajo del stock mínimo establecido, caducidad y aprobacion de montos.
+
