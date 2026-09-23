@@ -64,6 +64,19 @@ La primera versión del sistema contemplará:
 - Alerta cuando el stock alcance el mínimo establecido.
 
 ---
+## Stack tecnológico
+
+**Frontend:** JavaScript
+Es el lenguaje nativo para aplicaciones web, ya trabajado por el equipo durante la carrera, lo que permite mayor velocidad de desarrollo y menor curva de aprendizaje en esta etapa del proyecto.
+
+**Backend:** Java + Spring Boot
+Spring Boot es un framework maduro y sólido para aplicaciones empresariales con lógica de negocio compleja, como el control de stock entre múltiples sucursales, y ofrece un sistema de tipado y seguridad adecuado para este tipo de sistema. Es también una tecnología ya vista en la carrera.
+
+**Base de datos:** MongoDB
+Se eligió una base de datos no relacional por la flexibilidad de esquema que ofrece: permite adaptar la estructura de los documentos de producto a atributos variables según la categoría (por ejemplo, productos perecederos con fecha de vencimiento frente a productos que no la requieren) sin necesidad de modificar un esquema rígido a medida que el sistema crezca.
+
+**Control de versiones:** Git + GitHub
+Estándar de la industria para trabajo colaborativo en equipo, cumpliendo además con el requisito de repositorio único centralizado exigido por la cátedra.
 
 ## Requerimientos
 
