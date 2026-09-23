@@ -5,7 +5,9 @@
 Integrantes:
 
 Agustina Aguilera
+
 Gino Canevaro
+
 Akier Aguirrezabala
 
 ## --Sistema de Gestión de Inventario Para Cadena de Almacenes--
