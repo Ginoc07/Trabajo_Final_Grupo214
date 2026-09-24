@@ -10,7 +10,29 @@ Gino Canevaro
 
 Akier Aguirrezabala
 
-## --Sistema de Gestión de Inventario Para Cadena de Almacenes--
+## Índice
+
+- [Sistema de Gestión de Inventario para Cadena de Almacenes](#sistema-de-gestión-de-inventario-para-cadena-de-almacenes)
+- [Funcionalidades previstas](#funcionalidades-previstas)
+- [MVP](#mvp)
+- [Stack tecnológico](#stack-tecnológico)
+- [Requerimientos](#requerimientos)
+  - [Requerimientos funcionales](#requerimientos-funcionales)
+  - [Requerimientos no funcionales](#requerimientos-no-funcionales)
+- [Reglas de negocio](#reglas-de-negocio)
+- [Arquitectura](#arquitectura)
+- [Estructura de datos](#estructura-de-datos)
+- [Decisiones técnicas](#decisiones-técnicas)
+- [Plan de integración](#plan-de-integración)
+  - [Fases](#fases)
+- [Riesgos y mitigaciones](#riesgos-y-mitigaciones)
+- [Conclusión](#conclusión)
+- [Repositorio](#repositorio)
+- [Despliegue](#despliegue)
+- [Base de datos](#base-de-datos)
+- [API](#api)
+
+## Sistema de Gestión de Inventario para Cadena de Almacenes
 
 ### Descripción
 
@@ -64,18 +86,19 @@ La primera versión del sistema contemplará:
 - Alerta cuando el stock alcance el mínimo establecido.
 
 ---
+
 ## Stack tecnológico
 
-**Frontend:** JavaScript
+**Frontend:** JavaScript  
 Es el lenguaje nativo para aplicaciones web, ya trabajado por el equipo durante la carrera, lo que permite mayor velocidad de desarrollo y menor curva de aprendizaje en esta etapa del proyecto.
 
-**Backend:** Java + Spring Boot
+**Backend:** Java + Spring Boot  
 Spring Boot es un framework maduro y sólido para aplicaciones empresariales con lógica de negocio compleja, como el control de stock entre múltiples sucursales, y ofrece un sistema de tipado y seguridad adecuado para este tipo de sistema. Es también una tecnología ya vista en la carrera.
 
-**Base de datos:** MongoDB
+**Base de datos:** MongoDB  
 Se eligió una base de datos no relacional por la flexibilidad de esquema que ofrece: permite adaptar la estructura de los documentos de producto a atributos variables según la categoría (por ejemplo, productos perecederos con fecha de vencimiento frente a productos que no la requieren) sin necesidad de modificar un esquema rígido a medida que el sistema crezca.
 
-**Control de versiones:** Git + GitHub
+**Control de versiones:** Git + GitHub  
 Estándar de la industria para trabajo colaborativo en equipo, cumpliendo además con el requisito de repositorio único centralizado exigido por la cátedra.
 
 ## Requerimientos
