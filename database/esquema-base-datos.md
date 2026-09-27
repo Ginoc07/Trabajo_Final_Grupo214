@@ -355,8 +355,5 @@ Centraliza alertas de stock mínimo, vencimiento próximo y aprobación de monto
 | `orden_compra` | `proveedorId`, `estado` | Filtrado de compras |
 | `alerta` | `notificada + fechaGeneracion` | Cola de notificaciones pendientes |
 
-## 5. Reglas de consistencia aplicadas a nivel de datos
 
-1. El stock (`stock_sucursal.cantidadActual`) **nunca es negativo** y solo se modifica insertando un documento en `movimiento_stock` (transacción atómica a nivel aplicación/MongoDB `session`).
-2. `movimiento_stock` es **append-only**: no se actualizan ni eliminan documentos; una anulación crea un nuevo movimiento de ajuste inverso referenciado por `movimientoOrigenId`.
-3. `producto.atributosVariables` es *schema-less* y su forma esperada depende de `categoria.atributosEsperados` (validación a nivel aplicación, no a nivel de esquema fijo).
+
