@@ -27,7 +27,7 @@ Akier Aguirrezabala
   - [Fases](#fases)
 - [Riesgos y mitigaciones](#riesgos-y-mitigaciones)
 - [Conclusión](#conclusión)
-- [Repositorio+ su estructura](#repositorio)
+- [Repositorio y su estructura](#repositorio-y-su-estructura)
 - [Despliegue](#despliegue)
 - [Base de datos](#base-de-datos)
 - [API](#api)
