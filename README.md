@@ -362,9 +362,27 @@ En conjunto, el diseño de arquitectura, el modelo de datos flexible y las regla
 
 ---
 
-## Repositorio
+## Repositorio y su estructura 
 
 [https://github.com/Ginoc07/Trabajo_Final_Grupo214](https://github.com/Ginoc07/Trabajo_Final_Grupo214)
+
+El repositorio se organiza en carpetas de esta manera:
+
+```
+Trabajo_Final_Grupo214/
+├── README.md
+├── .gitignore
+├── docs/                  # Documentación funcional y técnica
+│   ├── 01-modulos.md
+│   ├── 02-arquitectura.md
+│   └── 03-estructura-repositorio.md
+├── database/              # Esquema de base de datos (colecciones, campos, claves, índices)
+│   └── esquema-base-datos.md
+├── backend/                # API REST (Java + Spring Boot)
+└── frontend/                # Aplicación web (JavaScript)
+```
+
+
 
 ## Despliegue
 
